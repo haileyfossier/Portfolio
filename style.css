@@ -53,12 +53,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: rgb(248, 216, 33)
 }
 
 header {
   text-align: center;
-  background: url('images/background.jpg') no-repeat top center ;
+  background: url('images/confetti.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -71,11 +71,11 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 5px solid rgb(0, 0, 0);
+  transition: all .5s ;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(2.5) rotate(360deg);
 }
 .tag {
   color: black;
@@ -92,14 +92,14 @@ header .profile-image:hover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
+  text-align: center;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 5px 50px 5px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #e73aa2;
 }
 
 ul.skills {
@@ -110,14 +110,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #bcbaba;
+  background: #39819d;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: rgb(136, 48, 64);
+  background: rgb(55, 195, 238);
 }
 
 footer {
@@ -206,3 +206,26 @@ a.social:hover {
 
 }
 
+/* Experience and Hobbies Page */
+
+.other {
+  margin: 50px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 5px 50px 5px;
+  transition: all .5s;
+}
+.other:hover {
+  border-color: #e73aa2;
+}
+
+.pug-image {
+  border-radius: 50%;
+}
+
+.desk-image {
+  border-radius: 10%;
+}
